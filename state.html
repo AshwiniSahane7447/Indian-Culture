@@ -1,0 +1,485 @@
+<html>
+<head>
+
+<SCRIPT language=JavaScript>
+
+var state = new Array(31);
+var capital = new Array(31);
+var language = new Array (31);
+
+state[0] = "Andhra Pradesh";
+capital[0] = "Hyderabad";
+language[0] = "Telugu and Urdu";
+
+
+state[1] = "Andaman & Nicobar Islands *";
+capital[1] = "Port Blair";
+language[1] = "Hindi, Nicobarese, Malyalam, Tamil and Telugu";
+
+
+state[2] = "Assam";
+capital[2] = "Gauhati";
+language[2] = "Assamese";
+
+
+state[3] = "Arunachal Pradesh";
+capital[3] = "Itnagar";
+language[3] = "Momnpa, Miji, Aka and Sherdukpen";
+
+
+state[4] = "Bihar";
+capital[4] = "Patna";
+language[4] = "Hindi";
+
+
+state[5] = "Chandigarh *";
+capital[5] = "Chandigarh";
+language[5] = "Hindi, Punjabi and English";
+
+
+state[6] = "Dadra & Nagar Haveli *";
+capital[6] = "Silvassa";
+language[6] = "Gujarati and Hindi";
+
+
+state[7] = "Daman & Diu *";
+capital[7] = "Daman";
+language[7] = "Gujarati";
+
+
+state[8] = "Delhi";
+capital[8] = "Delhi";
+language[8] = "Hindi";
+
+
+state[9] = "Goa";
+capital[9] = "Panaji";
+language[9] = "Marathi and Konkani";
+
+
+state[10] = "Gujarat";
+capital[10] = "Gandhi Nagar";
+language[10] = "Gujarati";
+
+
+state[11] = "Haryana";
+capital[11] = "Chandigarh";
+language[11] = "Hindi";
+
+
+state[12] = "Himachal Pradesh";
+capital[12] = "Simla";
+language[12] = "Hindi and Pahari";
+
+
+state[13] = "Jammu & Kashmir";
+capital[13] = "Srinagar";
+language[13] = "Hindi, Urdu and Kashmiri";
+
+
+state[14] = "Karnataka";
+capital[14] = "Bangalore";
+language[14] = "Kannada";
+
+
+state[15] = "Kerala";
+capital[15] = "Thiruvananthapuram";
+language[15] = "Malyalam";
+
+
+state[16] = "Lakshadweep *";
+capital[16] = "Kavaratti";
+language[16] = "Malyalam and Mahl";
+
+
+state[17] = "Madhya Pradesh";
+capital[17] = "Bhopal";
+language[17] = "Hindi";
+
+
+state[18] = "Maharashtra";
+capital[18] = "Mumbai or Bombay";
+language[18] = "Marathi, Hindi and Gujarati";
+
+state[19] = "Manipur";
+capital[19] = "Imphal";
+language[19] = "Manipuri";
+
+
+state[20] = "Meghalaya";
+capital[20] = "Shillong";
+language[20] = "Khasi, Garo and English";
+
+
+state[21] = "Mizoram";
+capital[21] = "Aizawl";
+language[21] = "Mizo and English";
+
+state[22] = "Nagaland";
+capital[22] = "Kohima";
+language[22] = "English, Angami, Ao, Chang,Konyak, Lotha and Sangtam";
+
+state[23] = "Orissa";
+capital[23] = "Bhubaneshwar";
+language[23] = "Oriya and Hindi";
+
+
+state[24] = "Pondicherry *";
+capital[24] = "Pondicherry";
+language[24] = "Tamil, Telugu, Malayalam, English and French";
+
+
+state[25] = "Punjab";
+capital[25] = "Chandigarh";
+language[25] = "Punjabi and Hindi";
+
+state[26] = "Rajashtan";
+capital[26] = "Jaipur";
+language[26] = "Hindi and Rajasthani";
+
+state[27] = "Sikkim";
+capital[27] = "Gangtok";
+language[27] = "Lepcha, Bhutia, Nepali and Limbu";
+
+
+state[28] = "Tamil Nadu";
+capital[28] = "Chennai";
+language[28] = "Tamil";
+
+
+state[29] = "Tripura";
+capital[29] = "Agartala";
+language[29] = "Bengali, Kokbarak and Manipuri";
+
+
+state[30] = "Uttar Pradesh";
+capital[30] = "Lucknow";
+language[30] = "Hindi and Urdu";
+
+
+state[31] = "West Bengal";
+capital[31] = "Calcutta";
+language[31] = "Bengali";
+
+state[32] = "Uttaranchal-New State";
+capital[32] = "Dehradun";
+language[32] = "Hindi";
+
+state[33] = "Chattisgarh-New State";
+capital[33] = "Raipur";
+language[33] = "Hindi";
+
+state[34] = "Jharkhand-New State";
+capital[34] = "Ranchi";
+language[34] = "Hindi";
+
+
+function showInfo() {
+var page = document.f1;
+var choice = page.statesList;
+
+for (var i = 0; i <= state.length; i++) {
+if (choice.options[choice.selectedIndex].value  == state[i]) {
+page.capital.value = capital[i];
+page.language.value = language[i];
+break;
+}
+else {
+page.capital.value = "";
+page.language.value = "";
+      }
+   }
+}
+
+</SCRIPT>
+</HEAD>
+<html>
+<head>
+<title>National symbol</title>
+<link rel="stylesheet" href="gujrati/culture.css" type="text/css">
+</head><body >
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0 HSPACE="0" 
+  VSPACE="0"><TBODY>
+  <TR>
+    <TD vAlign=top background=index/bg5.jpg colSpan=2><IMG height=257 
+      alt="Har ki Pauri, Haridwar" src="index/har-ki-pauri-haridwar.jpg" 
+      width=150 border=0><IMG height=257 alt=cultural-india 
+      src="index/cultural-india.jpg" width=138 useMap=#map2 
+      border=0><IMG height=257 alt="Cultural India" 
+      src="index/culture-of-india.jpg" width=138 useMap=#map1 
+      border=0><IMG height=257 alt="Culture in India" 
+      src="index/culture-in-india.jpg" width=192 border=0><IMG 
+      height=257 alt=India src="index/india.jpg" width=160 
+  border=0></TD></TR></TBODY></TABLE>
+<table cellspacing=0 cellpadding=0>
+<Tbody>
+<tr bgcolor=#ffcc33> 
+ <td width=2000 height=1>
+<font color=Black size=4>
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<A href="Home.html">
+<FONT color=BLACK size=4>Home&nbsp;</FONT></A>
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+<FONT COLOR=BLACK SIZ=4>&nbsp;</FONT>
+<a href="top.html"><font color=black size=4>Information</FONT></A>
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A href="feedback.html">
+<FONT color=BLACK size=4>Feedback</b></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;<A href="aboutus.html">
+<FONT color=BLACK size=4>About Us</b></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+
+
+</td></tr></center></tbody></table>
+
+
+
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0 HSPACE="0" 
+  VSPACE="0"><TBODY>
+  <TR>
+    <TD class=leftnav-bg vAlign=top width=160>
+      <DIV class=cat-hd><A 
+      href="state.html">States
+      </A></DIV>
+<br><br><br><bR>
+ <DIV class=cat-hd>
+<table border=0 width=95%>
+<tr>
+<td><marquee behaviour=scrolling loop=20>
+<img src="image/indcookclass.jpg" width=84 height=109 >
+</marquee><BR><BR><BR><BR>
+</td>
+</tR>
+</table>
+<DIV class=cat-hd> <IMG height=64
+            src="index/news.gif" width=64 align=absMiddle 
+            border=0>
+     </DIV>
+     
+     </TD>
+    <TD vAlign=top align=left>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" align=center border=0 
+      HSPACE="0" VSPACE="0">
+        <TBODY>
+        <TR>
+          <TD vAlign=top>
+            <DIV class=txttp align=center>
+</DIV></TD></TR></TBODY></TABLE><BR>
+      <DIV class=tpnav><!--topnav--><A 
+      href="top.html">Cultural India</A> <!--topnaven-->: <A 
+      href="state.html">States</A> </div>
+<H1 align=center>States In India</H1>
+<DIV class=text>
+<center><IMG class=frm height=95 alt="national-flower" 
+      src="indiastates.gif" width=150></center>
+<br><h4>India...a union of states, is a Sovereign, Secular, Democratic Republic with a Parliamentary system of Government.The "President" is the constitutional head of the Union.The Union is made up of 28 states and 7 union territories indicated by *</h4>
+<br>
+<ul><h4> States Of India</h4><hr>
+<li><h4> Andhra Pradesh</h4>
+<li><h4> Arunachal Pradesh</h4>
+<li><h4> Assam</h4>
+<li><h4> Bihar</h4>
+<li><h4>chattisgarh</h4>
+<li><h4> Goa</h4>
+<li><h4> Gujarat</h4>
+<li><h4> Haryana</h4>
+<li><h4> Himachel Pradesh</h4>
+<li><h4> Jammu and Kashmir</h4>
+<li><h4> Jharkhand</h4>
+<li><h4> Karnataka</h4>
+<li><h4> Kerala</h4> 
+<li><h4> Madhya Pradesh</h4>
+<li><h4> Manipur</h4>
+<li><h4> Meghalaya</h4>
+<li><h4> Mizoram</h4>
+<li><h4> Nagaland </h4>
+<li><h4> Orissa</h4>
+<li><h4> Punjab</h4>
+<li><h4> Rajasthan</h4>
+<li><h4> Sikkim</h4>
+<li><h4> Tamil Nadu</h4>
+<li><h4> Tripura</h4>
+<li><h4> Uttaranchal</h4>
+<li><h4> Uttar Pradesh</h4>
+<li><h4> West Bengal</h4></ul>
+<ul><h4> Union Territories Of India<hr>
+<li><h4> Andaman and Nicobar Islands *</h4>
+<li><h4> Chandigarh * </h4>
+<li><h4> Dadra and Nagar Haveli *</h4>
+<li><h4> Daman and Diu *</h4>
+<li><h4> Delhi *</h4>
+<li><h4> Lakshadweep *</h4>
+<li><h4> Pondicherry *</h4>
+</h4></ul>
+
+<FORM name=f1>
+      <TABLE borderColor=#ff9900 height=28 cellSpacing=0 cellPadding=0 
+        border=1><TBODY>
+        <TR>
+          <TD align=middle bgColor=orange height=26>
+            <P><FONT color=blue size=4>Guide to State 
+            Capitols and Languages Spoken</FONT>&nbsp;
+            <P><FONT size=2>Just select a 
+            State</FONT> <FONT color=blue size=2>or a 
+            Union Territory * below.</FONT> 
+            <CENTER></CENTER>
+            <P align=center><FONT color=blue 
+            size=2>Select a state: <SELECT onchange=showInfo() size=1 
+            name=statesList> <OPTION value="" selected>Select A State or Union 
+              Territory *----&gt;<OPTION value="Andhra Pradesh">Andhra 
+              Pradesh<OPTION value="Andaman &amp; Nicobar Islands *">Andaman 
+              &amp; Nicobar Islands *<OPTION value=Assam>Assam<OPTION 
+              value="Arunachal Pradesh">Arunachal Pradesh<OPTION 
+              value=Bihar>Bihar<OPTION value="Chandigarh *">Chandigarh *<OPTION 
+              value="Dadra &amp; Nagar Haveli *">Dadra &amp; Nagar Haveli 
+              *<OPTION value="Daman &amp; Diu *">Daman &amp; Diu *<OPTION 
+              value=Delhi>Delhi<OPTION value=Goa>Goa<OPTION 
+              value=Gujarat>Gujarat<OPTION value=Haryana>Haryana<OPTION 
+              value="Himachal Pradesh">Himachal Pradesh<OPTION 
+              value="Jammu &amp; Kashmir">Jammu &amp; Kashmir<OPTION 
+              value=Karnataka>Karnataka<OPTION value=Kerala>Kerala<OPTION 
+              value="Lakshadweep *">Lakshadweep *<OPTION 
+              value="Madhya Pradesh">Madhya Pradesh<OPTION 
+              value=Maharashtra>Maharashtra<OPTION value=Manipur>Manipur<OPTION 
+              value=Meghalaya>Meghalaya<OPTION value=Mizoram>Mizoram<OPTION 
+              value=Nagaland>Nagaland<OPTION value=Orissa>Orissa<OPTION 
+              value="Pondicherry *">Pondicherry *<OPTION 
+              value=Punjab>Punjab<OPTION value=Rajashtan>Rajashtan<OPTION 
+              value=Sikkim>Sikkim<OPTION value="Tamil Nadu">Tamil Nadu<OPTION 
+              value=Tripura>Tripura<OPTION value="Uttar Pradesh">Uttar 
+              Pradesh<OPTION value="Uttaranchal-New State">Uttaranchal-New 
+              State<OPTION value="Chattisgarh-New State">Chattisgarh-New 
+              State<OPTION value="Jharkhand-New State">Jharkhand-New 
+              State</OPTION></SELECT> </FONT>
+            <CENTER>
+            <P><FONT color=blue size=2>Capitol of State 
+            or Union Territory </FONT><FONT face="Comic Sans MS" color=blue 
+            size=2><INPUT size=44 name=capital> </FONT>
+            <P><FONT color=blue size=2>Primary Languages 
+            Spoken &nbsp;</FONT><FONT face="Comic Sans MS" color=blue 
+            size=2><INPUT size=44 name=language> </FONT>
+           </TD></TR></TBODY></TABLE></FORM>
+<br>
+</div></td>
+<TD class=rightnav-bg vAlign=top width=150>
+      <TABLE cellSpacing=0 cellPadding=0 width=150 border=0>
+        <TBODY>
+        <TR>
+          <DIV class=cat-hd><A 
+            href="top.html">Indian 
+            Culture</A></DIV>
+            <DIV class=lnav><IMG height=18 hspace=2 
+            src="gujrati/blt-2.gif" width=10 align=absMiddle 
+            border=0><A 
+            href="currency.html">Indian Currency</A></DIV>
+            <DIV class=lnav><IMG height=18 hspace=2 
+            src="gujrati/blt-2.gif" width=10 align=absMiddle 
+            border=0><A 
+            href="season.html">Indian Weather</A></DIV>
+            <DIV class=lnav><IMG height=18 hspace=2 
+            src="gujrati/blt-2.gif" width=10 align=absMiddle 
+            border=0><A 
+            href="state.html">States</A></DIV>
+            <DIV class=lnav><IMG height=18 hspace=2 
+            src="gujrati/blt-2.gif" width=10 align=absMiddle 
+            border=0><A 
+            href="leader.html">Leaders</A></DIV>
+            <DIV class=lnav><IMG height=18 hspace=2 
+            src="gujrati/blt-2.gif" width=10 align=absMiddle 
+            border=0><A 
+            href="reformers.html">Reformers</A></DIV>
+            <DIV class=lnav><IMG height=18 hspace=2 
+            src="gujrati/blt-2.gif" width=10 align=absMiddle 
+            border=0><A 
+            href="cloth.html">Indian 
+            Clothing</A></DIV>
+            <DIV class=lnav><IMG height=18 hspace=2 
+            src="gujrati/blt-2.gif" width=10 align=absMiddle 
+            border=0><A 
+            href="food.html">Indian Food</A></DIV>
+            <DIV class=lnav><IMG height=18 hspace=2 
+            src="gujrati/blt-2.gif" width=10 align=absMiddle 
+            border=0><A 
+            href="language.html">Indian Language</A></DIV>
+            <DIV class=lnav><IMG height=18 hspace=2 
+            src="gujrati/blt-2.gif" width=10 align=absMiddle 
+            border=0><A 
+            href="festival.html">Indian Festival</A></DIV>
+            <DIV class=lnav><IMG height=18 hspace=2 
+            src="gujrati/blt-2.gif" width=10 align=absMiddle 
+            border=0><A 
+            href="rangoli.html">Rangoli</A></FONT> 
+            </DIV>
+            <DIV class=lnav><IMG height=18 hspace=2 
+            src="gujrati/blt-2.gif" width=10 align=absMiddle 
+            border=0><A 
+            href="architecture.html">Indian 
+            Architecture</A></DIV>
+            
+           
+            
+             <DIV class=lnav><IMG height=18 hspace=2 
+            src="gujrati/blt-2.gif" width=10 align=absMiddle 
+            border=0><A 
+            href="fort.html">Indian 
+            Forts</A></DIV>
+            <DIV class=lnav><IMG height=18 hspace=2 
+            src="gujrati/blt-2.gif" width=10 align=absMiddle 
+            border=0><A 
+            href="religion.html">Indian 
+            Religions</A></DIV>
+            <DIV class=lnav><IMG height=18 hspace=2 
+            src="gujrati/blt-2.gif" width=10 align=absMiddle 
+            border=0><A 
+            href="monument.html">Indian 
+            Monuments</A></DIV>
+            <DIV class=lnav><IMG height=18 hspace=2 
+            src="gujrati/blt-2.gif" width=10 align=absMiddle 
+            border=0><A 
+            href="national_symbol.html">National 
+            Symbols</A></DIV>
+            
+           
+           </TD></TR></TBODY></TABLE><BR><BR><BR><BR></TD></TR></TBODY></TABLE>
+<TABLE cellSpacing=0 cellPadding=0 width="100%" border=0 HSPACE="0" 
+  VSPACE="0"><TBODY>
+<TR>
+    <TD bgColor=#ac5a01></TD></TR>
+  <TR>
+    <TD bgColor=#ffffd9 height=65>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" align=center border=0>
+        <TBODY>
+        <TR>
+          <TD rowSpan=3>
+            <DIV class=foot align=center>
+            </DIV>
+           
+        <TR></TR>
+        <TR></TR></TBODY></TABLE></TD></TR>
+ <TR>
+    <TD bgColor=#e9cf9a height=1></TD></TR>
+ </TBODY></TABLE>
+
+
+</body>
+</html>
